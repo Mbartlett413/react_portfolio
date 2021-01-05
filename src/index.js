@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './SPA/Header'
+import Work from './SPA/Work'
+import SmallNav from './SPA/SmallNav'
+import Contact from './SPA/Contact'
+import Footer from './SPA/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './FONTS/beauty.woff';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Header />
+    <Work />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

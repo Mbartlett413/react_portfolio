@@ -1,0 +1,45 @@
+.header_section{
+    min-height: 500px;
+}
+
+.contact_left{
+    background-color: aliceblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact_left h1{
+    font-family: 'beauty';  
+    color: aliceblue;
+    text-shadow: 3px 1px black;
+    font-size: 90px;;
+}
+
+.contact_right{
+    background-color: rgb(2, 2, 2);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_right p {
+    color: #FABB2D; 
+    font-family: 'beauty';
+    font-size: 25px;
+
+}
+.contact_right a {
+    color: #FABB2D; 
+    font-family: 'beauty';
+    font-size: 25px;
+
+}
+.contact_right h3 {
+    color: #FABB2D; 
+    font-family: 'beauty';
+    text-align: center;
+}

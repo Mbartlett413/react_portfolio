@@ -1,0 +1,29 @@
+body{
+    color: black;
+}
+
+.header_section{
+    min-height: 550px;
+}
+
+.header_left{
+    background-color: #FABB2D;
+    min-height: 550px;
+}
+
+.header_left p{
+    font-size: 75px;
+    font-family: 'beauty';
+}
+
+.header_right{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_right p {
+    font-family: 'beauty';
+    font-size: 18px;
+}

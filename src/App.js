@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import logo2 from './3d_geometry_square-512.png';
+import './FONTS/beauty.woff';
+import { Row, Col} from 'react-bootstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row className="App-header">
+      <Col md={6}>
+        <img src={logo2} className="App-logo" alt="logo" />
+      </Col>
+      <Col md={6} className="CompanyInfo">
+        <h1 className="CoName">GLASS</h1>
+        <h1 className="CoName2">MINDS</h1>
+        <h1 className="CoName3">MINDS</h1>
+        <p> Thinking outside the box </p>
+        <h3>Website Design & Development</h3>
+        <h3>Photography</h3>
+      </Col>
+      </Row>
     </div>
+
   );
 }
 
