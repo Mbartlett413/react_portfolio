@@ -12,7 +12,6 @@ function App() {
       </Col>
       <Col md={6} className="CompanyInfo">
         <h1 className="CoName">GLASS</h1>
-        <h1 className="CoName2">MINDS</h1>
         <h1 className="CoName3">MINDS</h1>
         <p> Thinking outside the box </p>
         <h3>Website Design & Development</h3>
