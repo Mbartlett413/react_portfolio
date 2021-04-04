@@ -10,8 +10,7 @@ function Contact() {
                     </Col>
                     <Col md={6} className="contact_right">
                         <p>If you have an idea, you are welcome to contact me.</p>
-                        <p>I am available for freelance work and full-time employment.</p>
-
+                    
                         <h3><b><u>MASON BARTLETT</u></b></h3>
                         <p> Web Designer // Software Engineer // Photographer </p>
                         <a  href="mailto:mbartlett413.com"> Mbartlett413@me.com</a>

@@ -6,24 +6,27 @@
   height: 40vmin;
   pointer-events: none;
 }
+.portfolioImg{
+  height: 40vmin;
+}
 
 .CoName {
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'beauty';
   font-size: 90px;
-  color: #FABB2D;
+  color: black;
+  -webkit-text-stroke: 1px #FABB2D;
 }
 .CoName2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  font-weight: bold;
-  color: #FABB2D;
+  font-family: 'beauty';
+  font-size: 90px;
+  color: black;
+  -webkit-text-stroke: 1px #FABB2D;
 }
 .CoName3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  font-weight: bold;
+  font-family: 'beauty';
+  font-size: 90px;
   color: black;
-  text-shadow: 3px 1px #FABB2D;
+  -webkit-text-stroke: 1px #FABB2D;
 }
 @font-face {
   font-family: 'beauty';

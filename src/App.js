@@ -19,8 +19,6 @@ function App() {
       </Col>
       </Row>
     </div>
-
   );
 }
-
 export default App;

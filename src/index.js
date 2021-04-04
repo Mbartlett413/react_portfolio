@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './SPA/Header'
 import Work from './SPA/Work'
-import SmallNav from './SPA/SmallNav'
 import Contact from './SPA/Contact'
 import Footer from './SPA/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,8 +14,8 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Header />
-    <Work />
     <Contact />
+    <Work />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
