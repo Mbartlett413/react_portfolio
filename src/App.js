@@ -1,4 +1,5 @@
 import logo2 from './3d_geometry_square-512.png';
+import gm_logo from './logo.jpg'
 import './FONTS/beauty.woff';
 import { Row, Col} from 'react-bootstrap';
 import './App.css';
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <Row className="App-header">
       <Col md={6}>
-        <img src={logo2} className="App-logo" alt="logo" />
+        <img src={gm_logo} className="my_logo" alt="logo" />
       </Col>
       <Col md={6} className="CompanyInfo">
         <h1 className="CoName">GLASS</h1>
